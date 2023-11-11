@@ -1,0 +1,92 @@
+/* style.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+  
+  /* Style the header */
+  .header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px; /* Increased padding for a bolder look */
+    font-size: 36px; /* Larger font size */
+}
+  
+  /* Center the container */
+  .container {
+    max-width: 600px; /* Increased width for a more spacious feel */
+    margin: auto;
+    padding: 40px; /* Increased padding for a more comfortable layout */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border: solid 2px #333;
+    border-radius: 15px;
+    margin-top: 15vh;
+    text-align: center;
+    color: #333;
+}
+  
+  /* Style the planet image */
+  #image-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #image-container:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+  /* Style the planet name */
+  #planet-name {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  /* Style the planet mass */
+  #planet-mass {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Style the rings and description */
+  #rings, #description {
+    margin: 10px 0;
+  }
+  
+  /* Style the button container */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+  
+  /* Style the previous and next buttons */
+  .btn {
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increased padding for a more clickable button */
+    margin: 0 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
